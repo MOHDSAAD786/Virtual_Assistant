@@ -12,7 +12,7 @@ import geminiResponse from "./gemini.js"
 const app=express()
 app.use(cors({
     origin: "https://velvety-pegasus-dc4db4.netlify.app",
-   "https://virtual-assistant-1-mdmv.onrender.com/signin",
+   "https://virtual-assistant-1-mdmv.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT || 5000
